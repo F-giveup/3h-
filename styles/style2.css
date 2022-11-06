@@ -1,0 +1,133 @@
+*{margin:0;padding:0;list-style-type:none;}
+ 
+.container{max-width:1140px;margin:0 auto;}
+ 
+.c-nav .show{
+	display: inline-block;
+    background-color: #57706a;
+}
+.c-nav .hiden{
+	display: none;
+    background-color: #57706a;
+
+}
+/* 导航栏 */
+.c-nav{
+	width: 100%;
+	background-color: rgba(41, 86, 116, 0);
+    background-color: #57706a;
+	
+}
+.c-nav .navFlex{
+	display: flex;
+	display: -webkit-flex;
+	justify-content:space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+    background-color: #57706a;
+	/*-webkit-align-content: center;*/
+
+	color: rgb(37, 7, 7);
+}
+.c-nav ul{
+	list-style: none;
+	margin-bottom: 0px;
+	padding-left: 0px;
+    background-color: #57706a;
+    
+}
+.c-nav ul li{
+	padding: 15px 0px 15px 0px;
+	margin-left: 30px;
+	display: inline-block;
+    background-color: #57706a;
+}
+.c-nav ul li a{
+	color: rgb(176, 173, 150);
+	padding-bottom: 2px;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+.c-nav ul li a:hover{
+	border-bottom: 3px solid #64d8da;
+}
+.c-nav .logo{
+    width: 30px;
+	height:40px;
+    border-radius: 100%;
+}
+.c-nav .btnImg{
+	height: 20px;
+	width: 25px;
+	padding: 3px 8px 3px 8px;
+	box-sizing: content-box;
+	border: 1px solid transparent;
+
+}
+@media screen and (max-width:1200px){
+	.c-nav ul li{
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width:992px){
+	.c-nav ul li{
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width:768px){
+	.c-nav ul li:nth-child(4),.c-nav ul li:nth-child(5){
+		display: none;
+	}
+}
+@media screen and (max-width:576px){
+	.c-nav{
+		background-color:rgba(176,204,243,0.8);
+		padding: 10px 0px 10px 0px;
+		opacity: 0.9;
+	}
+	.c-nav .navFlex{
+		flex-wrap:wrap;
+		font-size: 20px;
+		justify-content: space-between;
+	}
+	.c-nav .logo{
+		height: 30px;
+	}
+	.c-nav ul li{
+		padding-top: 10px;
+		margin-left: 0px;
+		display: block;
+	}
+	.c-nav ul li a{
+		border-bottom: 3px solid transparent;
+	}
+	.c-nav ul a:hover{
+		border-bottom: 3px solid #57706a;
+	}
+	.c-nav ul li:nth-child(4),.c-nav ul li:nth-child(5){
+		display: block;
+	}
+	.c-nav .hiden{
+		display: block;
+	}
+	.c-nav .show{
+		width: 100%;
+		font-size: 14px;
+		text-align: center;
+		display: none;
+	}
+}
+div#dibu{
+	background-color: rgb(214, 228, 241);
+}
+div#bg{
+    background-color: rgb(194, 164, 126);
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+text-align: center;
+height:1500px;
+height:hidden;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
+}
